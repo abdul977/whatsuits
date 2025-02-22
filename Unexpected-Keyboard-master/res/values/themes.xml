@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+@<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <declare-styleable name="keyboard">
     <!-- The background of the keyboard -->
@@ -221,5 +221,22 @@
     <item name="keyBorderRadius">1dp</item>
     <item name="emoji_button_bg">#26233a</item>
     <item name="emoji_color">#e0def4</item>
+  </style>
+
+  <style name="ModernDark" parent="BaseTheme">
+    <item name="android:isLightTheme">false</item>
+    <item name="colorKeyboard">#151515</item>
+    <item name="colorKey">#2A2A2A</item>
+    <item name="colorKeyActivated">#404040</item>
+    <item name="keyBorderWidth">0dp</item>
+    <item name="keyBorderWidthActivated">0dp</item>
+    <item name="colorLabel">#FFFFFF</item>
+    <item name="colorLabelActivated">#3399FF</item>
+    <item name="colorLabelLocked">#33CC33</item>
+    <item name="colorSubLabel">#AAAAAA</item>
+    <item name="keyBorderRadius">8dp</item>
+    <item name="emoji_button_bg">#2A2A2A</item>
+    <item name="emoji_color">#FFFFFF</item>
+    <item name="secondaryDimming">0.3</item>
   </style>
 </resources>
